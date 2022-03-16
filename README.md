@@ -1,4 +1,4 @@
-# cobalt-strike
+# cobalt strike
 自动化插件，集合了常用的工具和命令
 
 ps:重复造轮子
