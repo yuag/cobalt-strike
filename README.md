@@ -1,5 +1,5 @@
 # cobalt-strike
-自动化插件
+自动化插件，集合了常用的工具和命令
 
 ps:重复造轮子
 
@@ -8,7 +8,9 @@ ps:重复造轮子
 
 ![image](https://github.com/yuag/cobalt-strike/blob/main/images/1.png)
 
+
 ![image](https://github.com/yuag/cobalt-strike/blob/main/images/2.png)
+
 
 ![image](https://github.com/yuag/cobalt-strike/blob/main/images/3.png)
 
