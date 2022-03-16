@@ -1,0 +1,8 @@
+popup ssh {
+    item "执行命令" {
+        prompt_text("你想运行哪一个命令?", "w", lambda({
+            binput(@ids, "shell $1");
+            bshell(@ids, $1);
+        }, @ids => $1));
+    }
+}

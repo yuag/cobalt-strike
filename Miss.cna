@@ -1,0 +1,10 @@
+popup beacon_bottom {
+    menu "Miss"{
+        include(script_resource("modules/gathering.cna"));
+        include(script_resource("modules/ms.cna"));
+        include(script_resource("modules/fscan.cna"));
+        include(script_resource("modules/ssh.cna"));
+        include(script_resource("modules/about.cna"));	
+    }
+}
+

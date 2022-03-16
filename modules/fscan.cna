@@ -1,0 +1,48 @@
+menu "内网工具" {
+
+menu "fscan" {
+    {
+    
+    
+    item "上传软件" {
+        blog($1, "工具路径默认是64位C:\\Users\\Administrator\\Downloads\\fscan64.exe");
+       
+
+        bupload($1, script_resource("/script/fscan64.exe"));
+
+        bmv($1, "fscan64.exe", "C:\\Users\\Administrator\\Downloads\\fscan64.exe");
+
+    }
+
+
+    item "运行 fscan"{
+        $bid    = $1['@'];
+        $Dialog = dialog("运行fscan",%(command => "直接输入命令",bid => $bid),&netview_run);
+        drow_text($Dialog, "command", "command: ");
+        dbutton_action($Dialog, "运行");
+        dialog_show($Dialog); }
+
+    sub netview_run{
+    local('$Name');
+    $Name = $3['command'];
+    bshell($bid, "fscan64.exe   $+ $Name");
+    
+                
+
+    
+
+
+
+
+
+
+       }
+       }
+       }
+
+
+        
+
+    }
+
+

