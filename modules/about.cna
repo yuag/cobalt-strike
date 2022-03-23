@@ -2,7 +2,7 @@ menu "关于" {
     item "GitHub"{
         url_open("https://github.com/yuag");
     }
-    item "作者 : 小雨"{
+    item "作者 : xx"{
     }
     item "版本 v1.0"{
     }
