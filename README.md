@@ -1,4 +1,4 @@
-# cobalt strike
+# cobalt strike 更新日志
 
 
 2022-4-2 更新：
@@ -10,6 +10,10 @@
 
 
 
+# =====================================我是邪恶😈的分割线=====================================
+
+
+# cobalt strike 
 
 Cobalt Strike自动化插件，集合了常用的工具和命令.
 
@@ -18,14 +22,6 @@ Cobalt Strike自动化插件，集合了常用的工具和命令.
 ps:重复造轮子
 
 随缘更新。
-
-
-![image](https://github.com/yuag/cobalt-strike/blob/main/images/1.png)
-
-
-
-![image](https://github.com/yuag/cobalt-strike/blob/main/images/2.png)
-
 
 
 ![image](https://github.com/yuag/cobalt-strike/blob/main/images/3.png)
